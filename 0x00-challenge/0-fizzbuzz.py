@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 for num in range(1, 51):  # Boucle de 1 à 50 inclus
     if num % 3 == 0 and num % 5 == 0:  # Vérif divisible par 3 et 5
         print("FizzBuzz", end=' ')
