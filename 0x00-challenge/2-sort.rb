@@ -28,4 +28,4 @@ ARGV.each do |arg|
     result << i_arg if !is_inserted # Ajoute à la fin si pas encore inséré
 end
 
-puts result.join(' ') # Modifié pour afficher les résultats sur une seule ligne
+puts result # Modifié pour afficher les résultats sur une seule ligne
