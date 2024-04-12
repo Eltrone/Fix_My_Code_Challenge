@@ -1,4 +1,6 @@
-ass Square:
+#!/usr/bin/python3
+
+class Square:
     """
     This class represents a square where width is equal to height,
     with a single attribute for size.
