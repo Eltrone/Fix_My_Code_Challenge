@@ -1,15 +1,26 @@
 #!/usr/bin/python3
 
 class Square:
-    def __init__(self, size=0):
-        self.size = size
+    """
+    This class represents a square where width is equal to height.
+    """
+    size = 0
+
+    def __init__(self, *args, **kwargs):
+        for key, value in kwargs.items():
+            if key in {"size", "width", "height"}:
+                self.size = value
 
     def area_of_my_square(self):
-        """ Area of the square """
+        """
+        Calculate the area of the square.
+        """
         return self.size * self.size
 
     def perimeter_of_my_square(self):
-        """ Perimeter of the square """
+        """
+        Calculate the perimeter of the square.
+        """
         return 4 * self.size
 
     def __str__(self):
