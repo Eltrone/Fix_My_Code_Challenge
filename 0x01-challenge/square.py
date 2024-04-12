@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 class Square:
     """
     This class represents a square where width is equal to height.
@@ -25,6 +26,7 @@ class Square:
 
     def __str__(self):
         return "{}/{}".format(self.size, self.size)
+
 
 if __name__ == "__main__":
     s = Square(size=12)
